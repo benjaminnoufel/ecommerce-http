@@ -1,0 +1,6 @@
+lib
+tsconfig.json
+package.json
+.eslintrc.json
+jest.config.js
+examples/*

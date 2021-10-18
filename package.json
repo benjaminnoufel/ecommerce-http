@@ -1,0 +1,60 @@
+{
+    "name": "@benjaminnoufel/ecommerce-http",
+    "version": "1.0.0",
+    "description": "This is a library for handling HTTP requests on the client side for use ecommerce-api project.",
+    "license": "MIT",
+    "main": "lib/EcommerceHttp.js",
+    "types": "./lib/EcommerceHttp.d.ts",
+    "files": [
+        "lib"
+    ],
+    "author": {
+        "name": "Benjamin Noufel",
+        "url": "https://github.com/benjaminnoufel"
+    },
+    "bugs": {
+        "url": "https://github.com/benjaminnoufel/ecommerce-http/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benjaminnoufel/ecommerce-http.git"
+    },
+    "private": false,
+    "scripts": {
+        "build": "rollup --config rollup.config.ts",
+        "test": "jest",
+        "lint": "eslint --ext .ts,.js,.json .",
+        "types": "tsc --declaration --emitDeclarationOnly --project tsconfig.declaration.json"
+    },
+    "engines": {
+        "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "@babel/preset-typescript": "^7.15.0",
+        "@benjaminnoufel/eslint-config-javascript": "^0.1.3",
+        "@benjaminnoufel/eslint-config-typescript": "^0.1.2",
+        "@rollup/plugin-babel": "^5.3.0",
+        "@rollup/plugin-commonjs": "^21.0.0",
+        "@rollup/plugin-node-resolve": "^13.0.5",
+        "@rollup/plugin-typescript": "^8.3.0",
+        "@types/jest": "^27.0.2",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.0.1",
+        "eslint-plugin-jest": "^25.2.2",
+        "eslint-plugin-json": "^3.1.0",
+        "isomorphic-fetch": "^3.0.0",
+        "jest": "^27.3.0",
+        "rollup": "^2.58.0",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "ts-jest": "^27.0.7",
+        "tslib": "^2.3.1",
+        "typescript": "^4.4.4"
+    },
+    "peerDependencies": {
+        "@benjaminnoufel/http": "^1.0.6"
+    }
+}
