@@ -54,27 +54,27 @@ const ecommerceRequest = ({mode, credentials}: Omit<IRequest, "method">) => (tar
 
 export class EcommerceHttp {
     @ecommerceRequest({mode: "cors", credentials: "include"})
-    public static get(request: any): Promise<any> {
+    public static get<T = any>(request: any): Promise<T> {
         return request;
     }
 
     @ecommerceRequest({mode: "cors", credentials: "include"})
-    public static post(request: any, _body: Record<string, any>): Promise<any> {
+    public static post<T = any>(request: any, _body: Record<string, any>): Promise<T> {
         return request;
     }
 
     @ecommerceRequest({mode: "cors", credentials: "include"})
-    public static patch(request: any, _body: Record<string, any>): Promise<any> {
+    public static patch<T = any>(request: any, _body: Record<string, any>): Promise<T> {
         return request;
     }
 
     @ecommerceRequest({mode: "cors", credentials: "include"})
-    public static put(request: any, _body: Record<string, any>): Promise<any> {
+    public static put<T = any>(request: any, _body: Record<string, any>): Promise<T> {
         return request;
     }
 
     @ecommerceRequest({mode: "cors", credentials: "include"})
-    public static delete(request: any): Promise<any> {
+    public static delete<T = any>(request: any): Promise<T> {
         return request;
     }
 }
