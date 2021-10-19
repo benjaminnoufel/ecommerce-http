@@ -1,6 +1,6 @@
 {
     "name": "@benjaminnoufel/ecommerce-http",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This is a library for handling HTTP requests on the client side for use ecommerce-api project.",
     "license": "MIT",
     "main": "lib/EcommerceHttp.js",

@@ -2,10 +2,27 @@
 
 ## Summary
 
+- [`1.0.2`](#102)
 - [`1.0.1`](#101)
 - [`1.0.0`](#100)
 
-## 0.1.1
+## 1.0.2
+
+*2021-10-19*
+
+### Major changes
+
+None.
+
+### Minor changes
+
+- Adding generics types
+
+### Bug & security fixes
+
+None.
+
+## 1.0.1
 
 *2021-10-19*
 
@@ -22,8 +39,7 @@ None.
 
 None.
 
-
-## 0.1.0
+## 1.0.0
 
 *2021-10-18*
 
