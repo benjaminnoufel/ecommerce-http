@@ -2,9 +2,28 @@
 
 ## Summary
 
+- [`1.0.3`](#103)
 - [`1.0.2`](#102)
 - [`1.0.1`](#101)
 - [`1.0.0`](#100)
+
+## 1.0.3
+
+*2021-10-20*
+
+### Major changes
+
+None.
+
+### Minor changes
+
+- Update HTTP module.
+- Can add more options to request.
+
+### Bug & security fixes
+
+None.
+
 
 ## 1.0.2
 
