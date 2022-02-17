@@ -922,11 +922,6 @@
   resolved "https://registry.yarnpkg.com/@benjaminnoufel/eslint-config-typescript/-/eslint-config-typescript-0.1.2.tgz#760fac92adca36c3af82787e8399c61c4214ccbb"
   integrity sha512-m+lzEs2QrMurppbRdjhS2C2jNlpdd0WiSZWr3P5nGIxuJdt2xysSv2ablDv4Uz4EpsrwE1SEnbaBRDbTbjT2/A==
 
-"@benjaminnoufel/http@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@benjaminnoufel/http/-/http-1.1.2.tgz#755268b964991f5969d70903dedce599fa6211bf"
-  integrity sha512-ioAenLfvbrJzIFbLgyP0LDSIW+yUbme7A6FdaznJsM7L/7W4AJNoZ1HUPGRuce9p/OmM6syE4mnM5RxYZWK8pw==
-
 "@eslint/eslintrc@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.3.tgz#41f08c597025605f672251dcc4e8be66b5ed7366"
@@ -3379,9 +3374,9 @@ natural-compare@^1.4.0:
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 node-fetch@^2.6.1:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.5.tgz#42735537d7f080a7e5f78b6c549b7146be1742fd"
-  integrity sha512-mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
   dependencies:
     whatwg-url "^5.0.0"
 
