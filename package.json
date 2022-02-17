@@ -1,10 +1,10 @@
 {
-    "name": "@benjaminnoufel/ecommerce-http",
+    "name": "@benjaminnoufel/http-cors",
     "version": "1.0.3",
-    "description": "This is a library for handling HTTP requests on the client side for use ecommerce-api project.",
+    "description": "This is a library for handling HTTP requests with cors on the client side.",
     "license": "MIT",
-    "main": "lib/EcommerceHttp.js",
-    "types": "./lib/EcommerceHttp.d.ts",
+    "main": "lib/HttpCors.js",
+    "types": "./lib/HttpCors.d.ts",
     "files": [
         "lib"
     ],
@@ -13,11 +13,11 @@
         "url": "https://github.com/benjaminnoufel"
     },
     "bugs": {
-        "url": "https://github.com/benjaminnoufel/ecommerce-http/issues"
+        "url": "https://github.com/benjaminnoufel/http-cors/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/benjaminnoufel/ecommerce-http.git"
+        "url": "https://github.com/benjaminnoufel/http-cors.git"
     },
     "private": false,
     "scripts": {

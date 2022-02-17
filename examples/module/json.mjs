@@ -1,4 +1,4 @@
-import {EcommerceHttp} from "@benjaminnoufel/ecommerce-http";
+import {HttpCors} from "@benjaminnoufel/http-cors";
 
 /**
  * Create a new HTTP request on POST method with a body with a JSON response
@@ -6,7 +6,7 @@ import {EcommerceHttp} from "@benjaminnoufel/ecommerce-http";
  * Adding additional option for fetch with requestInit()
  */
 const jsonRequest = () => {
-    EcommerceHttp.post("https://jsonplaceholder.typicode.com/todos", {name: "Doe"})
+    HttpCors.post("https://jsonplaceholder.typicode.com/todos", {name: "Doe"})
         .then((res) => console.log(res))
         .catch((err) => console.error(err.message));
 };
@@ -14,4 +14,4 @@ const jsonRequest = () => {
 /**
  * Create a new HTTP request on POST method with a body with async/await with a JSON response
  */
-const jsonRequestAsyncAwait = async () => EcommerceHttp.get("https://jsonplaceholder.typicode.com/todos/1");
+const jsonRequestAsyncAwait = async () => HttpCors.get("https://jsonplaceholder.typicode.com/todos/1");

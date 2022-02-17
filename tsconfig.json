@@ -1,6 +1,6 @@
 {
     "exclude": [
-        "src/EcommerceHttp.spec.ts",
+        "src/HttpCors.spec.ts",
         "examples"
     ],
     "compilerOptions": {

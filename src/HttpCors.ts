@@ -54,7 +54,7 @@ const ecommerceRequest = ({mode, credentials}: Omit<IRequest, "method">) => (tar
 };
 
 
-export class EcommerceHttp {
+export class HttpCors {
     @ecommerceRequest({mode: "cors", credentials: "include"})
     public static get<T = any>(request: any, _options?: RequestInit): Promise<T> {
         return request;

@@ -1,6 +1,6 @@
 {
     "extends": "./tsconfig.json",
-    "files": ["src/EcommerceHttp.ts"],
+    "files": ["src/HttpCors.ts"],
     "compilerOptions": {
         "declaration": true,
         "declarationMap": true,
