@@ -2,10 +2,27 @@
 
 ## Summary
 
+- [`2.0.0`](#200)
 - [`1.0.3`](#103)
 - [`1.0.2`](#102)
 - [`1.0.1`](#101)
 - [`1.0.0`](#100)
+
+## 2.0.0
+
+*2022-02-17*
+
+### Major changes
+
+Rename package.
+
+### Minor changes
+
+None.
+
+### Bug & security fixes
+
+None.
 
 ## 1.0.3
 

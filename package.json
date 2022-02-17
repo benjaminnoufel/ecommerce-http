@@ -1,6 +1,6 @@
 {
     "name": "@benjaminnoufel/http-cors",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "description": "This is a library for handling HTTP requests with cors on the client side.",
     "license": "MIT",
     "main": "lib/HttpCors.js",

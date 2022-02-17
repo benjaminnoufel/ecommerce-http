@@ -1,11 +1,11 @@
-# ecommerce-http
+# http-cors
 
-This is a library for handling HTTP requests on the client side.
+This is a library for handling HTTP requests with cors on the client side.
 
-![Code Style CI](https://github.com/benjaminnoufel/ecommerce-http/workflows/Code%20Style%20CI/badge.svg)
-![Test CI](https://github.com/benjaminnoufel/ecommerce-http/workflows/Test%20CI/badge.svg)
-![Package](https://github.com/benjaminnoufel/ecommerce-http/workflows/Package/badge.svg)
-![Package npmjs](https://github.com/benjaminnoufel/ecommerce-http/workflows/Package%20npmjs/badge.svg)
+![Code Style CI](https://github.com/benjaminnoufel/http-cors/workflows/Code%20Style%20CI/badge.svg)
+![Test CI](https://github.com/benjaminnoufel/http-cors/workflows/Test%20CI/badge.svg)
+![Package](https://github.com/benjaminnoufel/http-cors/workflows/Package/badge.svg)
+![Package npmjs](https://github.com/benjaminnoufel/http-cors/workflows/Package%20npmjs/badge.svg)
 
 ## Summary
 
@@ -27,13 +27,13 @@ This is a library for handling HTTP requests on the client side.
 ### Using npm:
 
 ```console
-$ npm install --save @benjaminnoufel/ecommerce-http
+$ npm install --save @benjaminnoufel/http-cors
 ```
 
 ### Using yarn:
 
 ```console
-$ yarn add @benjaminnoufel/ecommerce-http
+$ yarn add @benjaminnoufel/http-cors
 ```
 
 ## Examples
