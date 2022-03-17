@@ -10,7 +10,7 @@
 ## Installation
 
 ```console
-$ git clone git@github.com:benjaminnoufel/ecommerce-http.git
+$ git clone git@github.com:benjaminnoufel/http-cors.git
 ```
 
 ## Install

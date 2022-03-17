@@ -4,7 +4,7 @@ import fetch from "isomorphic-fetch";
 
 window.fetch = fetch;
 
-describe("ecommerceHttp", (): void => {
+describe("HttpCors", (): void => {
     describe("testing decorator", (): void => {
         it("should create a new HttpCors instance with GET decorator", done => {
             expect.assertions(1);
@@ -30,7 +30,7 @@ describe("ecommerceHttp", (): void => {
                 userId: 9,
                 id: 101,
                 title: "new post",
-                body: "Testing ecommerce HTTP with post decorator"
+                body: "Testing HTTP cors with post decorator"
             };
 
             HttpCors.post("https://jsonplaceholder.typicode.com/posts", expected)
@@ -47,7 +47,7 @@ describe("ecommerceHttp", (): void => {
                 userId: 9,
                 id: 88,
                 title: "Updated post",
-                body: "Testing ecommerce HTTP with patch decorator"
+                body: "Testing HTTP cors with patch decorator"
             };
 
             HttpCors.patch("https://jsonplaceholder.typicode.com/posts/88", expected)
@@ -64,7 +64,7 @@ describe("ecommerceHttp", (): void => {
                 userId: 9,
                 id: 88,
                 title: "Updated post with put",
-                body: "Testing ecommerce HTTP with patch decorator"
+                body: "Testing HTTP cors with patch decorator"
             };
 
             HttpCors.put("https://jsonplaceholder.typicode.com/posts/88", expected)
