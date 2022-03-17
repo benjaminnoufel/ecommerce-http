@@ -4,7 +4,7 @@ import fetch from "isomorphic-fetch";
 
 window.fetch = fetch;
 
-describe("HttpCors", (): void => {
+describe("httpCors", (): void => {
     describe("testing decorator", (): void => {
         it("should create a new HttpCors instance with GET decorator", done => {
             expect.assertions(1);
