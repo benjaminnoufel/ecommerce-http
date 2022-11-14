@@ -1,6 +1,6 @@
 {
     "name": "@benjaminnoufel/http-cors",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "This is a library for handling HTTP requests with cors on the client side.",
     "license": "MIT",
     "main": "lib/HttpCors.js",
@@ -55,6 +55,6 @@
         "typescript": "^4.4.4"
     },
     "peerDependencies": {
-        "@benjaminnoufel/http": "^1.1.3"
+        "@benjaminnoufel/http": "^1.1.4"
     }
 }
